@@ -1,0 +1,189 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-as",
+            "afl-as.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-as.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-gcc",
+            "afl-gcc.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-gcc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-showmap",
+            "afl-showmap.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-showmap.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-tmin",
+            "afl-tmin.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-tmin.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-B",
+            ".",
+            "-g",
+            "-O3",
+            "-funroll-loops",
+            "-D__AFL_COMPILER=1",
+            "-DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION=1",
+            "-o",
+            "test-instr",
+            "test-instr.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "test-instr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-gotcpu",
+            "afl-gotcpu.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-gotcpu.c"
+    },
+    {
+        "arguments": [
+            "./afl-gcc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "test-instr",
+            "test-instr.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "test-instr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-fuzz",
+            "afl-fuzz.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-fuzz.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O3",
+            "-funroll-loops",
+            "-Wall",
+            "-D_FORTIFY_SOURCE=2",
+            "-g",
+            "-Wno-pointer-sign",
+            "-DAFL_PATH=\"/usr/local/lib/afl\"",
+            "-DDOC_PATH=\"/usr/local/share/doc/afl\"",
+            "-DBIN_PATH=\"/usr/local/bin\"",
+            "-o",
+            "afl-analyze",
+            "afl-analyze.c"
+        ],
+        "directory": "/home/jingyinghua/AFL",
+        "file": "afl-analyze.c"
+    }
+]
